@@ -1,0 +1,169 @@
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh; /* Ensure the height covers the full viewport */
+  margin: 0;
+}
+
+.login-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../images/callataxibg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  margin-top: 90px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%; /* Adjust width to fit within the viewport */
+  max-width: 400px; /* Maximum width */
+  box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.5); /* Slightly softer shadow */
+  background-color: transparent; /* Lighter background color */
+  border: 1px solid #ccc; /* Lighter border */
+  backdrop-filter: blur(10px); /* Reduced blur */
+  padding: 20px;
+  border-radius: 20px; /* Slightly reduced border-radius */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Slightly increased gap */
+  width: 100%;
+}
+
+.texty {
+  color: #333; /* Softer black */
+  font-size: 2rem; /* Slightly smaller font size */
+  font-weight: 700;
+}
+
+.underline {
+  width: 50px; /* Reduced width */
+  height: 4px; /* Reduced height */
+  background: #333; /* Softer black */
+  border-radius: 5px; /* Reduced border-radius */
+}
+
+.inputs {
+  margin-top: 20px; /* Reduced margin */
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Slightly reduced gap */
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd; /* Lighter border */
+  padding: 8px; /* Reduced padding */
+  border-radius: 4px; /* Reduced border-radius */
+  background-color: #fff;
+  width: 100%;
+}
+
+.input img {
+  margin-right: 8px; /* Reduced margin */
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #666; /* Softer text color */
+  font-size: 0.875rem; /* Reduced font size */
+  padding: 8px; /* Reduced padding */
+  border-radius: 4px; /* Reduced border-radius */
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; /* Reduced vertical margin */
+  width: 100%;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 100%;
+  max-width: 180px; /* Reduced max-width */
+  height: 45px; /* Reduced height */
+  background: #333; /* Softer black */
+  color: #fff;
+  border-radius: 25px; /* Rounded corners */
+  font-size: 1rem; /* Reduced font size */
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.submit:hover {
+  background-color: #ffcc00; /* Changed to a more professional color */
+  color: #333; /* Softer black */
+}
+
+.forgot-password {
+  margin-top: 20px;
+}
+.divider {
+  margin: 20px 0;
+  font-size: 0.875rem; /* Reduced font size */
+  color: #333; /* Softer black */
+  position: relative;
+  text-align: center;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 45%;
+  height: 1px;
+  background-color: #ddd; /* Lighter color */
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.error {
+  color: #e74c3c; /* Red color */
+  font-size: 0.875rem; /* Reduced font size */
+  margin-top: 0.5rem;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.875rem; /* Reduced font size */
+  text-align: center;
+  color: #333; /* Softer black */
+}
+
+footer a {
+  color: #1e90ff; /* Changed to a more professional blue */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

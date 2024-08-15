@@ -1,0 +1,150 @@
+/* src/Component/ResultsPage.css */
+
+.repa_1 {
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+  
+.repa_2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+.repa_3 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+  
+.repa_4 th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+  
+.repa_5, .repa_6, .repa_7, .repa_8, .repa_9, .repa_10, .repa_11, .repa_12 {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.repa_13:nth-child(even) {
+    background-color: #f2f2f2;
+}
+  
+.repa_14, .repa_15, .repa_16, .repa_17, .repa_18, .repa_19, .repa_20, .repa_21 {
+    text-align: center;
+}
+  
+.repa_22 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.repa_22:hover {
+    background-color: #45a049;
+}
+  
+.repa_23 {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+}
+  
+.repa_24 {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.repa_25 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+  
+.repa_26 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 550px;
+
+}
+  
+.repa_27 {
+    flex: 1;
+    min-width: 200px;
+}
+  
+.repa_28 {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+.repa_29, .repa_32, .repa_35, .repa_38, .repa_41, .repa_44 {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+  
+.repa_30 {
+    flex: 1;
+    min-width: 200px;
+}
+  
+.repa_33 {
+    flex: 1;
+    min-width: 200px;
+}
+  
+.repa_36 {
+    flex: 1;
+    min-width: 200px;
+}
+  
+.repa_39 {
+    flex: 1;
+    min-width: 200px;
+}
+  
+.repa_42 {
+    flex: 1;
+    min-width: 200px;
+}
+  
+.repa_28, .repa_31, .repa_34, .repa_37, .repa_40, .repa_43 {
+    font-size: 14px;
+    color: #555;
+}
+
+/* New Styles for Booking Confirmation */
+
+.repa_45 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.repa_45:hover {
+    background-color: #45a049; /* Darker green */
+}

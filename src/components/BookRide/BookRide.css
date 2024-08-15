@@ -1,0 +1,104 @@
+.ribo_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d1e9ff, #ffffff);
+    padding: 20px;
+  }
+  
+  .ribo_2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ribo_2 h1 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ribo_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .ribo_4 {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .ribo_5 {
+    padding: 12px;
+    border: 2px solid #007bff; /* Increased border width and added color */
+    border-radius: 8px;
+    font-size: 1rem;
+    flex: 1;
+  }
+  
+  .ribo_5:focus {
+    border-color: #0056b3; /* Change border color on focus */
+  }
+  .ribo:hover{
+    border-color: #007bff;
+  }
+  
+  .ribo_6 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ribo_7 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .ribo_8 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .ribo_9 {
+    padding: 8px 12px;
+    border: 2px solid #007bff; /* Increased border width and added color */
+    background: #f4f4f4;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .ribo_10 {
+    font-size: 1.2rem;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ribo_11 {
+    background-color: #000000;
+    color: #fff;
+   /* Added border color to match button background */
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ribo_11:hover {
+    background-color: #f2f910;
+    color:#000000;
+     /* Change border color on hover to match background */
+  }

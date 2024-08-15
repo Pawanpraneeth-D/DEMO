@@ -1,0 +1,225 @@
+/* Safety.css */
+
+/* Global reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Container for the entire page content */
+.safety-body-container {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Slider container */
+.safety-body-div {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  margin-top: 100px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center; /* Center content vertically if needed */
+}
+
+/* Semi-transparent overlay */
+.safety-transparent-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(84, 59, 59, 0.5);
+  z-index: 1;
+}
+
+/* Image styling to ensure full container coverage */
+.safety-body-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  display: block; /* Ensures the image is treated as a block element */
+}
+
+/* Overlay text styling */
+.safety-textt-overlay {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: black;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 2;
+}
+
+.safety-textt-overlay h1 {
+  margin-bottom: 20px;
+  font-size: 52px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 300px;
+  margin-left: 20px;
+  color: #fff;
+  text-overflow: ellipsis;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+
+.safety-para1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 30px;
+  margin-right: 320px;
+  margin-left: 20px;
+  text-align: center;
+  color:#fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2px;
+}
+.safety-para2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-left: 20px;
+  text-align: center;
+  color:#fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+/* Column and row styling */
+.safety-column {
+  float: left;
+  width: 50%; /* Adjust width as needed */
+  padding: 10px;
+  position: relative; /* Ensure child positioning is relative to this column */
+}
+
+.safety-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.safety-column h2 {
+  color: rgb(206, 182, 22);
+  padding-top: 80px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+.safety-column h1 {
+  color: black;
+  font-size: 29px;
+}
+
+.safety-column img {
+  width: 500px; /* Ensure full width of container */
+  height: 500px; /* Maintain aspect ratio */
+  display: block; /* Ensure images are block elements */
+  padding-top: 70px;
+  margin-left: 150px;
+}
+
+.safety-column p {
+  margin-top: 30px;
+}
+
+.safety-home-second {
+  padding: 50px 20px;
+  background-color: #fff; /* Light background color */
+}
+
+.safety-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.safety-column {
+  flex: 1;
+  padding: 50px;
+}
+
+.safety-column img {
+  width: 100%; /* Ensure image fits its container */
+  border-radius: 8px; /* Optional: rounded corners for image */
+  margin-left: 30px;
+}
+
+h1, h2 {
+  margin: 0;
+  color: #333; /* Dark text color for headers */
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 10px;
+}
+
+.safety-point-list {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.safety-point-item {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 5px;
+  margin-bottom: 24px;
+  padding: 10px;
+  background-color: #fff; /* White background for each point */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for visual depth */
+}
+
+.safety-point-icon {
+  font-size: 1.5em;
+  color: #4CAF50; /* Green color for the check icon */
+  margin-right: 15px;
+  flex-shrink: 0; /* Ensure icon does not shrink */
+}
+
+.safety-point-text {
+  font-size: 1.2em;
+  color: #555; /* Darker text color for readability */
+}
+/* Slider container styling */
+.safety-sliders-partner {
+width: 80%; /* Ensure the slider fits well within the container */
+margin: 0 auto; /* Center the slider */
+padding: 20px; /* Space around the slider */
+}
+
+/* Slide styling */
+.safety-slide {
+text-align: center; /* Center the content of each slide */
+}
+
+/* Image styling */
+.safety-slide img {
+width: 150px; /* Adjust width according to your design */
+height: auto; /* Maintain aspect ratio */
+margin: 0 auto; /* Center the image horizontally */
+display: block; /* Ensure the image is treated as a block element */
+}

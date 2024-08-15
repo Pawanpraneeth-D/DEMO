@@ -1,0 +1,335 @@
+/* Global reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Container for the entire page content */
+.home-body-container {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto; /* Center the container */
+    padding: 0;
+    background-color: #ffffff;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Slider container */
+.home-body-div {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    padding: 0;
+    margin-top: 100px;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    align-items: center; /* Center content vertically if needed */
+}
+
+/* Semi-transparent overlay */
+.home-transparent-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(84, 59, 59, 0.41);
+    z-index: 1;
+}
+
+/* Image styling to ensure full container coverage */
+.home-body-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    display: block; /* Ensures the image is treated as a block element */
+}
+
+/* Overlay text styling */
+.home-text-overlay {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+}
+
+.home-text-overlay h1, .home-text-overlay h2, .home-text-overlay p {
+    color: #fff;
+}
+
+.home-text-overlay h1 {
+    font-size: 4rem; /* Adjusted size */
+    margin-bottom: 20px;
+}
+
+.home-text-overlay h2 {
+    font-size: 2rem; /* Adjusted size */
+    margin-top: 50px;
+}
+
+.home-text-overlay p {
+    font-size: 1.5rem; /* Adjusted size */
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+/* Carousel container */
+.home-carousel-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.home-carousel {
+    width: 100%;
+    height: auto;
+}
+
+.home-carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.home-carousel .control-arrow {
+    opacity: 0.5;
+}
+
+.home-carousel .control-arrow:hover {
+    opacity: 1;
+}
+
+.home-carousel .control-next.control-arrow:before {
+    border-left: 8px solid #fff;
+}
+
+.home-carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #fff;
+}
+
+.home-carousel .carousel-slider {
+    overflow: hidden;
+}
+
+/* Specific list styling */
+.home-specific_list {
+    background-color: #e5d307;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 40px auto 100px;
+    margin-top: 80px;
+    height: 80px;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.home-specific_list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.home-specific_list ul li {
+    border-right: 2px solid #fff;
+    padding: 0 25px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-specific_list img {
+    margin-right: 10px;
+    width: auto;
+    height: 40px; /* Adjust this height as needed */
+}
+
+/* Column and row styling */
+.home-column-home {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    font-weight: 500;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    position: relative; /* Ensure child positioning is relative to this column */
+}
+
+.home-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.home-row {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.home-column {
+    flex: 1;
+}
+
+.home-column img.home-taxi {
+    width: 70%; /* Adjust this percentage to fit your needs */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between image and text */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+.home-column-home {
+    flex: 1; /* Take up remaining space */
+    padding: 40px;
+    font-weight: 500;
+}
+
+.home-column-home h2 {
+    color: rgb(7, 0, 0);
+    padding-top: 0px;
+    font-size: 28px;
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.home-column-home h1 {
+    color: black;
+    font-size: 32px;
+    margin-top: 0; /* Remove top margin to align better */
+    margin-bottom: 10px;
+}
+
+.home-column-home p {
+    font-size: 17px;
+    line-height: 1.3; /* Adjust text size if needed */
+}
+
+.home-column-home h2 {
+    color: rgb(7, 0, 0);
+    padding-top: 0px;
+    font-size: 1.5rem; /* Adjusted size */
+    margin-bottom: 90px;
+}
+
+.home-column-home h1 {
+    color: black;
+    font-size: 2.5rem; /* Adjusted size */
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.home-column img {
+    width: 70%; /* Ensure full width of container */
+    height: auto; 
+    margin-right: 20px;
+    display: block; /* Ensure images are block elements */
+}
+
+.home-column p {
+    margin-top: 30px;
+}
+
+.home-heading {
+    font-size: 3rem; /* Adjusted for realism */
+    font-weight: 700;
+    font-style: normal;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+.home-taxi {
+    margin-top: 100px;
+    margin-left:120px;
+    width:20%
+}
+.home-taxii {
+    margin-top: 90px;
+    margin-left:100px;
+    padding-top: 40px;
+    height:120px;
+    width:20%
+}
+
+.home-headings {
+    font-size: 3rem; /* Adjusted for realism */
+    font-weight: 700;
+    font-style: normal;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.home-para {
+    margin-left: 150px;
+    font-size: 1.2 rem;
+}
+
+.home-paras {
+    margin-right: 110px;
+    font-size:1.2 rem;
+}
+
+/* Container styling */
+.home-soon {
+    display: flex; /* Use flexbox for horizontal centering */
+    justify-content: center; /* Center items horizontally */
+    align-items: center;
+    gap: 80px;
+    padding: 30px;
+    background-color: #ffffff !important; /* White background with !important to override any other styles */
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 10px;
+    flex-wrap: wrap; /* Allow items to wrap if necessary */
+}
+
+/* Styling for individual items */
+.home-soon .home-man {
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+    flex: 1 1 300px; /* Grow and shrink with a base width */
+}
+
+/* Styling for images */
+.home-soon img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for images */
+.home-soon img:hover {
+    transform: scale(1.05);
+}
+
+/* Styling for headings */
+.home-soon .home-hel {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Styling for paragraphs */
+.home-soon p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}

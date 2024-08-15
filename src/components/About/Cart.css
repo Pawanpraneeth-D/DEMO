@@ -1,0 +1,106 @@
+.cart-container {
+  background-color: #f4f4f4;
+}
+
+.about-section {
+  display: flex;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.about-row {
+  display: flex;
+}
+
+.about-column {
+  flex: 1;
+}
+
+.about-image {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top:80px;
+
+}
+
+
+.about-heading {
+  font-size: 34px;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #333;
+  margin-top: 80px;
+}
+
+.services-section {
+  padding: 80px 50px;
+  background-image: url('../images/taxi3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.services-intro {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin-top: 120px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.services-intro h3 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #e7bd15;
+  margin-bottom: 20px;
+}
+
+.services-intro p {
+  font-size: 1.2rem;
+  color: #4f4f4f;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.service-item {
+  background-color: #fff;
+  padding: 40px;
+  margin: 0 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.service-title:hover {
+  color: #eedd15;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #000;
+}

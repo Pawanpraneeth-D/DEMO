@@ -1,0 +1,83 @@
+/* src/components/BikeBooking/BikeBooking.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  .booking-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image:url("C:\Users\jenis\OneDrive\Desktop\SHARERIDE\Event-main\Event-main\event\src\components\images\bookingbg.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .booking-container {
+    margin-top: 130px;
+    width: 30%;
+    max-width: 600px;
+    padding: 20px;
+    margin-right: 300px;
+    
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="date"],
+  .form-group input[type="time"],
+  .form-group select
+  {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  .form-group-book button {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding for button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Adjust font size */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    margin-left: 150px;
+    text-decoration: none;
+  }
+  
+  .form-group-book button:hover {
+    background-color: #ebdd14; /* Yellow background on hover */
+    color: #000000; /* Black text on hover */
+  }
+  
+  
+
+
